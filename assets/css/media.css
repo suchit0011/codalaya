@@ -524,3 +524,21 @@
         min-width: 240px !important;
     }
 }
+
+/* blog setting */
+@media(min-width:768px){
+    .blog_box .card-text{
+        height: 33px;}
+    .blog_box .card-title{ height: 28px;}
+}
+@media(max-width:768px){
+    .blog_box .blogbox_heading {
+        padding: 12px 25px;
+    }
+    .blogbox_heading h1{
+       font-size: 2rem;;
+    }
+    .read_title h1 {
+        font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDefault.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeRDark.min.css" integrity="sha512-qemR3rXL1kWkVm8r+bEYNyHp97dgDZZjMEQ+EhSlHIjP2L9ddatWJeuwU1+mwKj6sxaiFCxRwXrVh94CxcMoAw==" crossorigin="anonymous" />
+    <!--  -->
+    <link rel="stylesheet" href="assets/css/style.css" >
+    <link rel="stylesheet" href="assets/css/media.css" >
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJava.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJScript.min.js" integrity="sha512-1sgIP38qm/y/33QFXdgSgBinVscLgnICy//6P5vVGaT/NyK2zZfsbLtrz/pPnix5CbEImM88s4HHxDFEHBcINg==" crossorigin="anonymous"></script>
+  <title>VishAcademy</title>
+</head>
+<body>
+        <!-- ======= Hero Section ======= -->
+       
+<div class="content_wrapper">
+  <!-- <header> -->
+    <div id="header-top">
+        <div class="container header-contain my-auto h-100">
+          <div class="row h-100">
+            <div class="col-4 col-sm-6 my-auto" id="brandlogo">
+                <h2>Codalaya</h2>
+            </div>
+            <div class="col-8  col-sm-6 my-auto text-right">
+              <button type="button" class="btn change_btn login_btn">Log In</button>
+              <button type="button" class="btn change_btn">Sign Up</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="myHeader" >
+      <div  class="container header-contain">
+        <div class="row" >
+        <div class="col-12">
+       <!-- nav bar second -->
+       <nav class="navbar navbar-expand-lg navbar-dark m-0 p-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown ">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="d-block dropdown_text link_text"> Beginners</span>
+                <span class="nav_textdown">Learn from Scratch</span>
+              </a>
+              <div class="dropdown-menu nav_dropdown" aria-labelledby="navbarDropdown">
+                <p class="pl-2">Start to learn any skill from scratch.</p>
+                <div class="center_dropdown"> 
+                <div class="left_dropdown">
+                  <a class="dropdown-item" href="#">UI/UX Design ></a>
+                  <a class="dropdown-item" href="#">Front-end</a>
+                  <a class="dropdown-item" href="#">Back-end</a>
+                </div>
+                <div class="right_dropdown">
+                  <a class="dropdown-item" href="#">HTML</a>
+                  <a class="dropdown-item" href="#">CSS</a>
+                  <a class="dropdown-item" href="#">JavaScript</a>
+                  <a class="dropdown-item" href="#">jQuery</a>
+                  <a class="dropdown-item" href="#">Angular</a>
+                  <a class="dropdown-item" href="#">React JS</a>
+                </div>
+              </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="d-block dropdown_text link_text"> Projects</span>
+                <span class="nav_textdown">Practice your skills</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="d-block dropdown_text link_text"> Libraries</span>
+                <span class="nav_textdown"> More after Core </span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- ---------- new code-------------- -->
+
+        <!-- work -->
+        <form class="form-inline" id="searchtext">
+          <div class="input-group searchform">
+            <input type="text" class="form-control" placeholder="Search a course or topic here" aria-label="Username" aria-describedby="basic-addon1">
+            <div class="input-group-prepend">
+              <button class="btn  my-2 my-sm-0" type="button" id="search_btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </form>
+
+        <!-- ################## -->
+        <button class="btn  my-2 my-sm-0 d-lg-none tog_searchbtn" type="button" onclick="toggleSearch()" id="search_toggle">
+          <i class="fa fa-search" id="togsearch" aria-hidden="true"></i>
+          <i class="fa fa-times" id="togcross" aria-hidden="true"></i>
+        </button>
+        <!-- ################### -->
+        <!-- -------- new code---------------- -->
+      </nav>
+       </div>
+       <!-- nav bar closed  -->
+      </div>
+    </div>
+    </div>
+  
+  <section class="blog_center">
+
+       <div class="container">
+          <div class="row">
+                 <div class="col-12 sponsore_ad text-center">
+                    <img src="http://via.placeholder.com/728x91" class="img-fluid" alt="">
+                </div>
+          </div>
+          <div class="row blog_box">
+            <div class="col-12 blogbox_heading">
+              <h1>Tech Intro</h1>
+          </div>  
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+              <div class="card_body">
+              <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                    <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+          <div class="card_body">
+          <div class="card">
+              <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+                  <div class="card_body">
+                  <div class="card">
+                      <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                      <div class="card-body">
+                      <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                      <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                      </div>
+                  </div>
+                  </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+              <div class="card_body">
+              <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                  <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                  <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+              <div class="card_body">
+              <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                  <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                  <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+              <div class="card_body">
+              <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                  <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                  <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+              <div class="card_body">
+              <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                  <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                  <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
+              <div class="card_body">
+              <div class="card">
+                  <img class="card-img-top" src="http://via.placeholder.com/1920x1080" alt="Card image cap">
+                  <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Tech Intro</small><small class="text-muted">28 December 2021</small></p>
+                  <h5 class="card-title">Introduction to Cloud Computing with AWS and Google loud</h5>
+                  </div>
+              </div>
+              </div>
+          </div>
+         
+          </div>
+        </div>
+            <!-- Footer -->
+            <footer class="footer_content">
+                <div class="pl-2 first-ftborder">
+                <hr >
+                </div>
+                <!-- Grid container -->
+                <div class="container">
+              
+                  <!-- Section: Links -->
+                  <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-center">
+                        <h5 class="footer_heading">Links</h5>
+  
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#!" class="footer_link">Link 1</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 2</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 3</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 4</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-lg-3 col-md-6 mb-4 mb-md-0  text-center">
+                        <h5 class="footer_heading">Links</h5>
+  
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#!" class="footer_link">Link 1</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 2</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 3</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 4</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-lg-3 col-md-6 mb-4 mb-md-0  text-center">
+                        <h5 class="footer_heading">Links</h5>
+  
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#!" class="footer_link">Link 1</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 2</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 3</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 4</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!--Grid column-->
+  
+                      <!--Grid column-->
+                      <div class="col-lg-3 col-md-6 mb-4 mb-md-0  text-center">
+                        <h5 class="footer_heading">Links</h5>
+  
+                        <ul class="list-unstyled mb-0">
+                          <li>
+                            <a href="#!" class="footer_link">Link 1</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 2</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 3</a>
+                          </li>
+                          <li>
+                            <a href="#!" class="footer_link">Link 4</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                  </section>
+                  <!-- Section: Links -->
+                </div>
+                <div class="pl-2">
+                  <hr >
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                  <section class="text-center footer_copyright">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                      distinctio earum repellat quaerat voluptatibus placeat nam,
+                      commodi optio pariatur est quia magnam eum harum corrupti dicta,
+                      aliquam sequi voluptate quas.
+                    </p>
+                    <p class="">
+                      © 2020 Copyright:
+                  <a class="footer_link" href="https://mdbootstrap.com/">Codalaya.com</a>
+                    </p>
+                    <a class=""> <img src="http://via.placeholder.com/150x80" class="img-fluid" alt=""></a>
+                  </section>
+                  </div>
+                  </div>
+            </footer>
+  <!-- Footer closed-->
+  </section>
+  
+ 
+</div>
+<!-- ----- -->
+ <script type="text/javascript">SyntaxHighlighter.all()</script>
+<!-- ----------- -->
+<!-- ######### for sticky header and aside -->
+
+<script>
+  window.onscroll = function() {myFunction()};
+  // asidemenu
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+
+<!-- for search btn -->
+<script>
+function toggleSearch(){
+  
+  var searchinput = document.getElementById("searchtext");
+  var toggsearch = document.getElementById("togsearch");
+  var toggcorss = document.getElementById("togcross");
+    
+    if (searchinput.style.display === "block") {
+      searchinput.style.display = "none";
+      toggsearch.style.display = "block";
+      toggcorss.style.display = "none";
+      
+    } else {
+      searchinput.style.display = "block";
+      toggsearch.style.display = "none";
+      toggcorss.style.display = "block";
+    }
+}
+</script>
+
+<!-- toggle sidebar -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
